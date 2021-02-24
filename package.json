@@ -1,0 +1,24 @@
+{
+  "name": "performance-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chrome-performance-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caraya/performance-testing.git"
+  },
+  "keywords": [],
+  "author": "Carlos Araya <carlos.araya@gmail.com> (https://publishing-project.rivendellweb.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caraya/performance-testing/issues"
+  },
+  "homepage": "https://github.com/caraya/performance-testing#readme",
+  "devDependencies": {
+    "playwright": "^1.9.0",
+    "playwright-lighthouse": "^2.0.0"
+  }
+}
