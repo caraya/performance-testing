@@ -1,4 +1,4 @@
-const playwright = require('playwright-core');
+const playwright = require('playwright');
 const { playAudit } = require('playwright-lighthouse');
 const fs = require('fs');
 
@@ -32,7 +32,7 @@ const url = process.argv[2];
     },
     reports: {
       formats: {
-        json: false, //defaults to false
+        json: true, //defaults to false
         html: true, //defaults to false
         csv: false, //defaults to false
       },
